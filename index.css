@@ -1,8 +1,9 @@
 .container {
     border: 5px solid #FFCC5C;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    height: 100%;
-    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.container > div {
+    width: 300px;
 }
