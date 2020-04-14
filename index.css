@@ -3,10 +3,43 @@
     display: flex;
 }
 
-.home {
-    flex: 1 1 400px;
+/****** positive ********/
+/*
+.item1 {
+    order: 2;
 }
 
-.logout {
-    flex: 10 1 400px;
+.item2{
+    order: 1;
+}
+
+.item3 {
+    order: 0;
+}
+*/
+/****** negative ********/
+/*
+.item1 {
+    order: -1;
+}
+
+.item2{
+    order: -2;
+}
+
+.item3 {
+    order: -3;
+}
+*/
+/****** positive and negative ********/
+.item1 {
+    order: 1;
+}
+
+.item2{
+    order: 0;
+}
+
+.item3 {
+    order: -1;
 }
