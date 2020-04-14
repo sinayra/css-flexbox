@@ -2,4 +2,5 @@
     border: 5px solid #FFCC5C;
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
