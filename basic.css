@@ -13,9 +13,9 @@ html, body{
 .container > div:nth-child(1){
     background-color: #96CEB4;
 }
-.container > div:nth-child(2){
+.container > div:nth-of-type(even){
     background-color: #FF6F69;
 }
-.container > div:nth-child(3){
+.container > div:nth-of-type(2n + 3){
     background-color: #88D8B0;
 }
