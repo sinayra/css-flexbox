@@ -1,45 +1,28 @@
+html,
+body {
+  background-color: #ffeead;
+  box-sizing: border-box;
+}
+body {
+  padding: 10px;
+}
+
 .container {
-    border: 5px solid #FFCC5C;
-    display: flex;
+  border: 5px solid #ffcc5c;
+  color: #ffeead;
+}
+.container > li:nth-of-type(even) {
+  background-color: #ff6f69;
+}
+.container > li:nth-of-type(odd) {
+  background-color: #88d8b0;
+}
+li a {
+  text-decoration: none;
+  color: currentColor;
+  transition: filter 0.2s;
 }
 
-/****** positive ********/
-/*
-.item1 {
-    order: 2;
-}
-
-.item2{
-    order: 1;
-}
-
-.item3 {
-    order: 0;
-}
-*/
-/****** negative ********/
-/*
-.item1 {
-    order: -1;
-}
-
-.item2{
-    order: -2;
-}
-
-.item3 {
-    order: -3;
-}
-*/
-/****** positive and negative ********/
-.item1 {
-    order: 1;
-}
-
-.item2{
-    order: 0;
-}
-
-.item3 {
-    order: -1;
+li a:hover {
+  filter: brightness(120%);
 }

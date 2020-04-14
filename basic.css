@@ -1,24 +1,41 @@
-.container > div {
-    padding: 10px;
-    text-align: center;
-    font-size: 2em;
-    color: #FFEEAD;
+.container > li {
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  color: #ffeead;
+  box-sizing: border-box;
+  background-color: #96ceb4;
+  list-style-type: none;
 }
 
-html, body{
-    background-color: #FFEEAD;
-    box-sizing: border-box;
+html {
+  background-color: #ffeead;
 }
-body{
-    padding: 10px;
+body {
+  margin: 10px;
 }
 
-.container > div:nth-child(1){
-    background-color: #96CEB4;
+.container {
+  padding: 0;
 }
-.container > div:nth-of-type(even){
-    background-color: #FF6F69;
+.search-input {
+  background: #ff6e68;
+  border: 0;
+  width: 100%;
+  outline: 0;
+  font-size: 90%;
+  background: transparent;
+  border-bottom: 1px solid #ffeead;
+  color: #ffeead;
 }
-.container > div:nth-of-type(2n + 3){
-    background-color: #88D8B0;
+::placeholder {
+  color: #ffeead;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+.container > li {
+  background-color: #96ceb4;
 }
